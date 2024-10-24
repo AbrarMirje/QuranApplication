@@ -1,6 +1,7 @@
 [build]
-  publish = "dist/quran-app/browser/browser"
-  command = "ng build --prod"
+  command = "ng build --configuration=production"  
+  publish = "dist/quran-app/browser/browser"  
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
