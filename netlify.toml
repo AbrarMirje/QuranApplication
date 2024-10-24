@@ -1,5 +1,5 @@
 [build]
-  publish ="dist/quran-app"
+  publish ="dist/quran-app/browser"
   command ="ng build"
 [[redirects]]
   from = "/*"
